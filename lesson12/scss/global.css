@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+header {
+  height: 80px;
+}
+header .container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .container .img {
+  max-width: 32px;
+  height: 32px;
+  margin-left: 40px;
+}
+header .container ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container ul h1 {
+  color: black;
+}
+
+.s-1 {
+  height: 80px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-1 .container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.s-1 .container .card1 {
+  max-width: 362px;
+  width: 100%;
+  background-color: white;
+  height: 350px;
+  position: relative;
+}
+.s-1 .container .card1 .shvili {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: 32px;
+  left: 41px;
+}
+.s-1 .container .card1 p {
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  margin: 30px;
+  line-height: normal;
+}
+.s-1 .container .card1 .images {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.s-1 .container .card1 h2 {
+  margin-left: 10px;
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+.s-2 {
+  height: 80px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 350px;
+}
+.s-2 .container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.s-2 .container .leftwrapper {
+  position: relative;
+}
+.s-2 .container .leftwrapper .shvili {
+  position: absolute;
+  color: #FFF;
+  font-size: 20px;
+  top: 203px;
+  left: 272px;
+}
+.s-2 .container .rightwrapper {
+  width: 800px;
+  margin-left: 20px;
+}
+
+footer {
+  height: 80px;
+  margin-top: 900px;
+}
+footer .fot {
+  max-width: 1440px;
+  width: 100%;
+  height: 201px;
+  background-color: #243043;
+  display: flex;
+  justify-content: space-between;
+}
+footer .fot .colm1 {
+  margin-left: 137px;
+  margin-top: 30px;
+}
+footer .fot h5 {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+}
+footer .fot .colm2 {
+  margin-top: 30px;
+}
+footer .fot .colm3 {
+  margin-top: 30px;
+}
+footer .fot p {
+  margin-top: 48px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

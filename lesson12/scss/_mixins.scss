@@ -1,0 +1,20 @@
+@mixin mycontainer {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+@mixin myflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@mixin myfonts {
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+@mixin myflex2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
